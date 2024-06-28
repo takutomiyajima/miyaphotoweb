@@ -1,0 +1,77 @@
+
+.Photo-container{
+    background-color: black;
+    background-size: cover;
+    color: #FFF;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Photo-title{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Sawarabi Mincho";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.Picup-title{
+    padding-left: 10vw; 
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Picup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    padding-bottom: 20vh;
+}
+
+.Picup-detail {
+    padding: 30px;
+    max-width: 50%;
+    text-align: left;
+}
+
+.Picup-photo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Picup-detail-title {
+    color: #FFF;
+    font-family: "Sawarabi Mincho";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.Picup-detail-context {
+    color: #FFF;
+    font-family: "Sawarabi Mincho";
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.Photo-list{
+    display: flex;
+    flex-wrap: wrap;
+}

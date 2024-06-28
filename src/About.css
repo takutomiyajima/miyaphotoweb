@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+
+.About-container{
+    background-color: black;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.About-titles{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5vh;
+}
+
+.About-title{
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Sawarabi Mincho";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.About-subtitle{
+    color: #FFF;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.24);
+    font-family: "Sawarabi Mincho";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5vw;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  
+  .profile-photo {
+    width: 350px;
+    height: 466.561px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  .profile-contents {
+    max-width: 40%;
+    max-height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.profile-photo2{
+    width: 500px;
+    height: 332.787px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-title{
+    color: #FFF;
+    -webkit-text-stroke-width: 0.5;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.24);
+    font-family: "Sawarabi Mincho";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profile-detail1{
+    color: #FFF;
+    font-family: "Sawarabi Mincho";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.profile-detail2{
+    max-width: 40%;
+    max-height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+    font-family: "Sawarabi Mincho";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.profile-detail3{
+  max-width: 40%;
+  max-height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFF;
+  font-family: "Sawarabi Mincho";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+}
+
+@media (max-width: 768px) {
+    .About-subtitle, .profile-title {
+      font-size: 32px;
+    }
+
+    .About-title{
+      font-size: 48px;
+      padding-top: 20px;
+    }
+  
+    .profile {
+      align-items: center;
+      padding: 40px;
+    }
+
+    .profile-detail1{
+      font-size: 24px;
+    }
+  
+    .profile-photo, .profile-photo2 {
+      width: 40%;
+      height: auto;
+    }
+  
+    .profile-contents, .profile-detail2 {
+      max-width: 50%;
+      font-size: 20px;
+    }
+
+    .profile-detail3{
+      max-width: 50%;
+      font-size: 14px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .About-subtitle, .profile-title {
+      font-size: 32px;
+    }
+
+    .About-title{
+      font-size: 48px;
+      padding: 15px;
+    }
+  
+    .profile-photo, .profile-photo2 {
+      width: 70%;
+      height: auto;
+    }
+  
+    .profile-contents, .profile-detail2{
+      max-width: 100%;
+      font-size: 16px;
+    }
+
+    .profile-detail3{
+      font-size: 14px;
+      max-width: 90%;
+    }
+  
+    .profile-detail1 {
+      font-size: 24px;
+    }
+  }

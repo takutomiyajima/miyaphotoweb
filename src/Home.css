@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+
+.home-container {
+    background-image: url('./image/header.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  .Home-title-back {
+    background-color: rgba(217, 217, 217, 0.50); 
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .Home-title {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.01em; 
+    -webkit-text-stroke-color: #000;
+    font-family: "Sawarabi Mincho";
+    font-size: 6em; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .Home-subtitle {
+    color: #FFF;
+    -webkit-text-stroke-width: 0.01em; 
+    -webkit-text-stroke-color:  rgba(0, 0, 0, 0.24);
+    font-family: "Sawarabi Mincho";
+    font-size: 2.5em; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  @media (max-width: 599px) {
+    .Home-title {
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        -webkit-text-stroke-width: 0.01em; 
+        -webkit-text-stroke-color: #000;
+        font-family: "Sawarabi Mincho";
+        font-size: 3em; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+    .Home-subtitle {
+        color: #FFF;
+        -webkit-text-stroke-width: 0.01em; 
+        -webkit-text-stroke-color:  rgba(0, 0, 0, 0.24);
+        font-family: "Sawarabi Mincho";
+        font-size: 1.5em; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+  }
+  
