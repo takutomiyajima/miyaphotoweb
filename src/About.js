@@ -23,7 +23,7 @@ export const About = () => {
                 Profile
               </p>
               <p className='profile-detail1'>
-                Name：Takuto Miyajima<br></br>
+                Name：Miya<br></br>
                 Age：20<br></br>
                 Like：Night Picture<br></br>
                 From：Chiba<br></br>

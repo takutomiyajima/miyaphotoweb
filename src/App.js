@@ -14,14 +14,14 @@ function App() {
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/about" className="nav-link">About</Link>
           <Link to="/photo" className="nav-link">Photo</Link>
-          <Link to="/contact" className="nav-link">Contact</Link>
+          
         </nav>
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/photo" element={<Photo />} />
-        <Route path="/contact" element={<Contact />} />
+        
         
       </Routes>
     </BrowserRouter>

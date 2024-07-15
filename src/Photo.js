@@ -4,7 +4,7 @@ import akihabara from './image/akihabara.JPG'
 import for1 from './image/for1.JPG'
 import fuji from './image/fuji.JPG'
 import fune1 from './image/fune1.JPG'
-import irumi from './image/irumi.JPG'
+import irumi from './image/irumi.jpg'
 import nemo from './image/nemo.JPG'
 import re1 from './image/re1.JPG'
 import re2 from './image/re2.JPG'
@@ -34,7 +34,7 @@ export const Photo = () => {
           Picup
       </h2>
       <div className='Picup-container'>
-        <img className='Picup-photo' src= {tokyo}></img>
+        <img className='Picup-photo' src= {fuji}></img>
         <div className='Picup-detail'>
           <p className='Picup-detail-title'>
             藤と映る金魚たち。

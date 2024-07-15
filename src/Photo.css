@@ -75,3 +75,76 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+/* タブレット用*/
+@media (max-width: 768px) {
+    .Photo-title {
+        font-size: 48px;
+    }
+
+    .Picup-title {
+        padding-left: 5vw;
+        font-size: 36px;
+    }
+
+    .Picup-container {
+        flex-direction: column;
+        padding-bottom: 10vh;
+    }
+
+    .Picup-detail {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .Picup-photo {
+        max-width: 100%;
+    }
+
+    .Picup-detail-title {
+        font-size: 36px;
+    }
+
+    .Picup-detail-context {
+        font-size: 20px;
+    }
+}
+
+/* スマホ用*/
+@media (max-width: 480px) {
+    .Photo-title {
+        font-size: 36px;
+    }
+
+    .Picup-title {
+        padding-left: 5vw;
+        font-size: 24px;
+    }
+
+    .Picup-container {
+        flex-direction: column;
+        padding-bottom: 5vh;
+    }
+
+    .Picup-detail {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .Picup-photo {
+        max-width: 100%;
+    }
+
+    .Picup-detail-title {
+        font-size: 24px;
+    }
+
+    .Picup-detail-context {
+        font-size: 18px;
+    }
+
+    .Photo-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
